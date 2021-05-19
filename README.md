@@ -67,6 +67,7 @@ This section should list any major frameworks that you built your project using.
 * [GitHub](https://github.com/)
 * [Jupiter Notebook](https://jupyter.org/)
 * [Streamlit](https://streamlit.io/)
+* [Graphext](https://www.graphext.com/)
 
 
 <!-- GETTING STARTED -->
