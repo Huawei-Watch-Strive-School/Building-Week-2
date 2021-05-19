@@ -114,7 +114,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 | ------ | ------ | ------ |
 | Nurlan_Sarkhanov | Deepnote coding| [https://www.linkedin.com/in/nurlan-sarkhanov-8749a698/]|
 | Lakshmipathi rao Devalla| Deepnote coding | [https://www.linkedin.com/in/devalla-lakshmipathirao/] |
-| Olatunde Salami —  | Deepnote coding | [https://www.linkedin.com/in/olatunde-salami/] |
+| Olatunde Salami  | Deepnote coding | [https://www.linkedin.com/in/olatunde-salami/] |
 | Agathiya Raja | Github readme | [https://github.com/AgathiyaRaja]|
 | Thanh Nguyen | Github readme | [https://www.linkedin.com/in/nguyenphuocxuanthanh/ |
 
