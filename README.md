@@ -36,7 +36,8 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Data Description</a></li>
+       <li><a href="#missions">Missions</a></li>
+        <li><a href="#data-description">Data Description</a></li>
         <li><a href="#installation">Clone</a></li>
       </ul>
     </li>
@@ -71,14 +72,20 @@ This section should list any major frameworks that you built your project using.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Our collaborator team works on these tasks and challenges that need to be achieved to achieve the goals of project Baby Yoda as a part of AI Engineer batch at Strive School.
-- We think there are 3 different galaxies in our cluster of data find them and map them.
-- Generate a map only of the uppermost galaxy
-- we think BeBe Yoda is in the rightmost planet of this galaxy. Plot the highlighted planet on the original data
-- Input the coordinates into the force finder
-- From the planet data you will need to extract the force concentration and its two principal components. Map them.
-- Find BeBe Yoda in the closest point to the gravitational center of the two principal components of the force. Highlight in a map the gravitational center and the closest point.
-- Deliver the force coordinates to high command. 
+Run for your life is a startup tech company. Our goal is to develop a fitness software that is able to be used plug and play style into most apps and smart watches, in a Google Fit style.
+One of the main ideas behind the project is to facilitate the calorie counting and make it more precise. In order to do this you will need to build a model that use the different measurements of your phone to classify the activity the athletes are taking part on accurately.
+Even though the initial focus is to get it working in as smartphone for Google Fit. We would like for it to work also in less powerful devices like smart watches.
+
+Since the software is meant to complement other apps the easier it is to attach to a fitness software the easier it would be to sell. Same applies to devices, the more devices is works on the easier it will be to sell.
+
+
+### Missions
+We are looking for a model with incredible accuracy in as many classes as possible. We are willing to sacrifice some accuracy in exchange for classifying more classes, but never too much.
+The model should be adaptable to more devices that maybe don't measure as much data as the one in our dataset so if you are able to achieve great results with less data we would be very interested in taking a look at them.
+The more lightweight the better we even accept a ‘lite’ submission for smartwatches with the main submission.
+What if we didn't need to plug this into another software? If you are able to do a precise calorie counter and deliver it with the model please do.
+
+
 
 ### Data Description
 
