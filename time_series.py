@@ -16,7 +16,7 @@ y = df.target
 preprocessor = joblib.load('./model/preprocessor.x')
 model = joblib.load('./model/model.x')
 X_test = preprocessor.transform(X)
-# pred = model.predict(X_test)
+pred = model.predict(X_test)
 
 # print(pred)
 # print(f"Accuracy { accuracy_score(y, pred)*100}")
