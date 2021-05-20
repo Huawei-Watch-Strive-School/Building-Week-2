@@ -21,8 +21,8 @@ X_test = preprocessor.transform(X)
 
 predictions = []
 
-for row in range(df.shape[0]):
-    print(row)
+for i in range(df.shape[0]):
+    print(df.values(i))
     # sleep(1)
     # pred = model.predict(X_test)
     # if pred == 0:
