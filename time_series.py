@@ -10,11 +10,11 @@ from sklearn.pipeline import Pipeline, make_pipeline
 from sklearn import set_config, impute, compose
 from sklearn.metrics import accuracy_score, balanced_accuracy_score, plot_confusion_matrix, roc_auc_score
 
-df = pd.read_csv("./sample.csv")
+df = pd.read_csv("./data/sample.csv")
 X = df.drop('target', axis=1)
 y = df.target
 
-preprocessor = joblib.load('preprocessor1.x')
+preprocessor = joblib.load('preprocessor.x')
 model = joblib.load('model1.x')
 
 X_ = preprocessor.transform(X)
