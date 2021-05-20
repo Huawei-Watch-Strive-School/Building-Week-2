@@ -22,42 +22,40 @@ X_test = preprocessor.transform(X)
 predictions = []
 
 for i in range(df.shape[0]):
-    print(df.values(i))
-    # sleep(1)
-    # pred = model.predict(X_test)
-    # if pred == 0:
-    #     predictions.append(0)
-    # elif pred == 1:
-    #     predictions.append(1)
-    # elif pred == 2:
-    #     predictions.append(2)
-    # elif pred == 3:
-    #     predictions.append(3)
+    x_test = df.values[i]
+    sleep(1)
+    pred = model.predict(x_test)
+    if pred == 'Car':
+        predictions.append('Car')
+    elif pred == 'Still':
+        predictions.append('Still')
+    elif pred == 'Walking':
+        predictions.append('Walking')
 
-    # if predictions == 5:
+    if predictions == 5:
 
-    #     still_cont = 0
-    #     walk_cont = 0
-    #     car_cont = 0
-    #     bus_cont = 0
+        still_cont = 0
+        walk_cont = 0
+        car_cont = 0
+        bus_cont = 0
 
-    #     for p in predictions:
-    #         if p == 0:
-    #             still_cont += 1
-    #         elif p == 1:
-    #             walk_cont += 1
-    #         elif p == 2:
-    #             car_cont += 1
-    #         elif p == 3:
-    #             bus_cont += 1
+        for p in predictions:
+            if p == 0:
+                still_cont += 1
+            elif p == 1:
+                walk_cont += 1
+            elif p == 2:
+                car_cont += 1
+            elif p == 3:
+                bus_cont += 1
 
-    #     if still_cont >= 2:
-    #         print('You are currently in still position')
-    #     elif walk_cont >= 2:
-    #         print('You are currently walking')
-    #     elif car_cont >= 2:
-    #         print('You are currently in a car')
-    #     elif bus_cont >= 2:
-    #         print('You are currently in a bu')
+        if still_cont >= 2:
+            print('You are currently in still position')
+        elif walk_cont >= 2:
+            print('You are currently walking')
+        elif car_cont >= 2:
+            print('You are currently in a car')
+        elif bus_cont >= 2:
+            print('You are currently in a bu')
 
-    #     predictions.remove(predictions[0])
+        predictions.remove(predictions[0])
