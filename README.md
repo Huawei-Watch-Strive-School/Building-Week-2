@@ -81,7 +81,7 @@ The dataset was developed by a [team of collaborators from the Univsersity of Bo
 | Lakshmipathi rao Devalla| Model development | [https://www.linkedin.com/in/devalla-lakshmipathirao/] |
 | Olatunde Salami  | Feature Engineering | [https://www.linkedin.com/in/olatunde-salami/] |
 | Agathiya Raja | Feature Engineering | [https://github.com/AgathiyaRaja]|
-| Thanh Nguyen | Streamlit | [https://www.linkedin.com/in/nguyenphuocxuanthanh/ |
+| Thanh Nguyen | Streamlit & Github | [https://www.linkedin.com/in/nguyenphuocxuanthanh/ |
 
 
 
