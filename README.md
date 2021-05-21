@@ -54,10 +54,13 @@
 ## About The Project
 We are Huawei Watch Team from Strive School, the project is our mission for the Building Week of 18-21/5/2021. 
 
+![Picture 1](https://user-images.githubusercontent.com/27528504/119095806-08d12000-ba13-11eb-9641-73e7fcb37a0d.png)
+
+<!--
 ![alt text](https://trendyport.com/wp-content/uploads/2020/03/1-22-768x412.jpg)
 ![alt text](https://trendyport.com/wp-content/uploads/2020/03/1-768x512.jpeg)
 ![alt text](https://trendyport.com/wp-content/uploads/2020/03/1-23-768x432.jpg)
-
+-->
 
 
 ### Built With
