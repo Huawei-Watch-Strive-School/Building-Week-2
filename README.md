@@ -30,18 +30,10 @@
     <li>
       <a href="#about-the-project">About The Project</a>
     </li>
-    <li>
-      <a href="#goal-of-this-project">Getting Started</a>
-      <ul>
-       <li><a href="#missions">Missions</a></li>
-        <li><a href="#data-description">Data Description</a></li>
-        <li><a href="#installation">Clone</a></li>
-      </ul>
-    </li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
+    <li><a href="#Data Description">Contributing</a></li>
+    <li><a href="#Goal of this project">License</a></li>
+    <li><a href="#Project plan">Contact</a></li>
+    <li><a href="#The Team">Acknowledgements</a></li>
   </ol>
 </details>
 
@@ -87,7 +79,7 @@ Our goal is to build a model with incredible accuracy in as many activity classe
 
 
 <!-- CONTACT -->
-## Huawei Team is comprised of:
+## The Team:
 
 | Contributors | Tasks | LINKEDIN|
 | ------ | ------ | ------ |
