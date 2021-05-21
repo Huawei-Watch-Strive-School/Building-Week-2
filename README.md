@@ -52,7 +52,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-We are the **Huawei Watch Team** from [Strive School](https://strive.school/), and this is a project from our second build week (18-21/5/2021) out of many more to come in the course of our AI Engineering specilization program. For this project, we have been tasked to build a functioning machine learning model out of some fitness data that was collected from users on an andriod fitness app.   
+We are the **Huawei Watch Team** from [Strive School](https://strive.school/), and this is a project from our second build week (18-21/5/2021) out of many more to come in the course of our AI Engineering specilization program. For this project, we have been tasked to build a functioning machine learning model out of some fitness data that was collected from users on an andriod fitness app. You can find the original dataset [here](https://tempesta.cs.unibo.it/projects/us-tm2017/download.html)
 
 <!--![Picture 1](https://user-images.githubusercontent.com/27528504/119095806-08d12000-ba13-11eb-9641-73e7fcb37a0d.png)-->
 
