@@ -77,11 +77,11 @@ The dataset was developed by a [team of collaborators from the Univsersity of Bo
 
 | Contributors | Tasks | LINKEDIN|
 | ------ | ------ | ------ |
-| Nurlan_Sarkhanov | Deepnote coding| [https://www.linkedin.com/in/nurlan-sarkhanov-8749a698/]|
-| Lakshmipathi rao Devalla| Deepnote coding | [https://www.linkedin.com/in/devalla-lakshmipathirao/] |
-| Olatunde Salami  | Deepnote coding | [https://www.linkedin.com/in/olatunde-salami/] |
-| Agathiya Raja | Github readme | [https://github.com/AgathiyaRaja]|
-| Thanh Nguyen | Github readme | [https://www.linkedin.com/in/nguyenphuocxuanthanh/ |
+| Nurlan_Sarkhanov | Mode development| [https://www.linkedin.com/in/nurlan-sarkhanov-8749a698/]|
+| Lakshmipathi rao Devalla| Model development | [https://www.linkedin.com/in/devalla-lakshmipathirao/] |
+| Olatunde Salami  | Feature Engineering | [https://www.linkedin.com/in/olatunde-salami/] |
+| Agathiya Raja | Feature Engineering | [https://github.com/AgathiyaRaja]|
+| Thanh Nguyen | Streamlit | [https://www.linkedin.com/in/nguyenphuocxuanthanh/ |
 
 
 
