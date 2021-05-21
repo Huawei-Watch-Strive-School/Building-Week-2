@@ -52,12 +52,12 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-We are the **Huawei Watch Team** from [Strive School](https://strive.school/), and this is a project from our second build week (18-21/5/2021) at [Strive School](https://strive.school/). we have been tasked to build a functioning machine learning model out of some fitness data that was collected from users on an andriod fitness app.   
+We are the **Huawei Watch Team** from [Strive School](https://strive.school/), and this is a project from our second build week (18-21/5/2021) out of many more to come in the course of our AI Engineering specilization program. For this project, we have been tasked to build a functioning machine learning model out of some fitness data that was collected from users on an andriod fitness app.   
 
 <!--![Picture 1](https://user-images.githubusercontent.com/27528504/119095806-08d12000-ba13-11eb-9641-73e7fcb37a0d.png)-->
 
 <!--![Picture 1](https://user-images.githubusercontent.com/27528504/119107723-cb26c400-ba1f-11eb-8bb6-77ba3ff42570.png)-->
-<img src="https://user-images.githubusercontent.com/27528504/119107723-cb26c400-ba1f-11eb-8bb6-77ba3ff42570.png" width="700" height="600">
+<img src="https://user-images.githubusercontent.com/27528504/119107723-cb26c400-ba1f-11eb-8bb6-77ba3ff42570.png" width="600" height="500">
 
 <!--
 ![alt text](https://trendyport.com/wp-content/uploads/2020/03/1-22-768x412.jpg)
@@ -80,7 +80,7 @@ We built this project using majorly the following frameworks:
 ## Getting Started
 
 Run for your life is a startup tech company, whose goal is to develop a fitness software that is able to be used plug and play style into most apps and smart watches, in a Google Fit style.
-One of the main ideas behind the project is to facilitate the calorie counting and make it more precise. Through the Strive school, as we have tasked to support this project by building a machine learning model that uses the different measurements of your phone to classify the activity the athletes are taking part on accurately, such as running, walking, on car, train, or at standstill.
+One of the main ideas behind the project is to facilitate the calorie counting and make it more precise. Through the Strive school, as we have tasked to support this project by building a machine learning model that uses the different measurements of your phone to classify the activity the athletes are taking part on accurately, such as running, walking, on car, on the train, or at standstill.
 
 Even though the initial focus is to get the app working in smartphones for Google Fit. it would subsequently be implemented to work also in less powerful devices like smart watches.
 
@@ -88,16 +88,17 @@ Even though the initial focus is to get the app working in smartphones for Googl
 
 
 ### Missions
-We are looking for a model with incredible accuracy in as many classes as possible. We are willing to sacrifice some accuracy in exchange for classifying more classes, but never too much.
+Our mission is to build a model with incredible accuracy in as many activity classes as possible. 
+<!--We are willing to sacrifice some accuracy in exchange for classifying more classes, but never too much.
 The model should be adaptable to more devices that maybe don't measure as much data as the one in our dataset so if you are able to achieve great results with less data we would be very interested in taking a look at them.
 The more lightweight the better we even accept a ‘lite’ submission for smartwatches with the main submission.
-What if we didn't need to plug this into another software? If you are able to do a precise calorie counter and deliver it with the model please do.
+What if we didn't need to plug this into another software? If you are able to do a precise calorie counter and deliver it with the model please do.-->
 
 
 
 ### Data Description
 
-The dataset is based on the 13 users who collected the data during their daily activities. The dataset includes all sensors available in phones and distinguishes five transportation modes: 
+The dataset was developed by a [team of collaborators from the Univsersity of Bologna](https://tempesta.cs.unibo.it/projects/us-tm2017/tutorial.html#raw_data), and is based on the 13 users who collected the data during their daily activities. The dataset includes all sensors available in phones such as accelerometer, gyrometer, etc., and distinguishes five transportation modes: 
 / being on a car
 / on a bus
 / on a train
@@ -115,7 +116,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 
 <!-- CONTACT -->
-## Contact
+## Huawei Team is comprised of:
 
 | Contributors | Tasks | LINKEDIN|
 | ------ | ------ | ------ |
