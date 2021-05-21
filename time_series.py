@@ -57,4 +57,4 @@ for i in range(0, 15):
             print('You are currently in a car')
             predictions = []
             continue
-    predictions.remove(predictions[0])
+        predictions.remove(predictions[0])
