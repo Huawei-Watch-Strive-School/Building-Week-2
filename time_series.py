@@ -14,15 +14,8 @@ y = df.target
 preprocessor = joblib.load('./model/preprocessor.x')
 model = joblib.load('./model/model.x')
 clf = Pipeline([('pre', preprocessor), ('classification', model)])
-
-# pred = clf.predict(X)
-
-# print(pred)
-# print(f"Accuracy { accuracy_score(y, pred)*100}")
-print(df.shape[0])
 predictions = []
-
-for i in range(0, 30):
+for i in range(df.shape[0]):
     x_test = df.drop('target', axis=1).values[i].reshape(1, -1)
     x_test = pd.DataFrame(x_test, columns=df.drop('target', axis=1).columns)
     sleep(1)
@@ -46,14 +39,10 @@ for i in range(0, 30):
                 car_cont += 1
             elif p == 'Walking':
                 walk_cont += 1
-        print(predictions)
-        if still_cont >= 4:
+        if still_cont >= 3:
             print('You are currently in still position')
-            continue
-        elif walk_cont >= 4:
+        elif walk_cont >= 3:
             print('You are currently walking')
-            continue
-        elif car_cont >= 4:
+        elif car_cont >= 3:
             print('You are currently in a car')
-            continue
         predictions.remove(predictions[0])
