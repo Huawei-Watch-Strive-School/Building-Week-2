@@ -54,7 +54,10 @@
 ## About The Project
 We are the **Huawei Watch Team** from [Strive School](https://strive.school/), and this is a project from our second build week (18-21/5/2021) at [Strive School](https://strive.school/). we have been tasked to build a functioning machine learning model out of some fitness data that was collected from users on an andriod fitness app.   
 
-![Picture 1](https://user-images.githubusercontent.com/27528504/119095806-08d12000-ba13-11eb-9641-73e7fcb37a0d.png)
+<!--![Picture 1](https://user-images.githubusercontent.com/27528504/119095806-08d12000-ba13-11eb-9641-73e7fcb37a0d.png)-->
+
+<!--![Picture 1](https://user-images.githubusercontent.com/27528504/119107723-cb26c400-ba1f-11eb-8bb6-77ba3ff42570.png)-->
+<img src="https://user-images.githubusercontent.com/27528504/119107723-cb26c400-ba1f-11eb-8bb6-77ba3ff42570.png" width="700" height="600">
 
 <!--
 ![alt text](https://trendyport.com/wp-content/uploads/2020/03/1-22-768x412.jpg)
