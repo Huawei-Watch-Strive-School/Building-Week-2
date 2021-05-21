@@ -7,12 +7,12 @@
 *** See the bottom of this document for the declaration of the reference variables
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
+
 
  [![Contributors][contributors-shield]][contributors-url]
  [![Forks][forks-shield]][forks-url]
  [![Issues][issues-shield]][issues-url]
-
+-->
 
 <!-- PROJECT LOGO -->
 <p align="center">
@@ -52,7 +52,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-We are Huawei Watch Team from Strive School, the project is our mission for the Building Week of 18-21/5/2021. 
+We are the **Huawei Watch Team** from [Strive School](https://strive.school/), and this is a project from our second build week (18-21/5/2021) at [Strive School](https://strive.school/). we have been tasked to build a functioning machine learning model out of some fitness data that was collected from users on an andriod fitness app.   
 
 ![Picture 1](https://user-images.githubusercontent.com/27528504/119095806-08d12000-ba13-11eb-9641-73e7fcb37a0d.png)
 
@@ -65,7 +65,7 @@ We are Huawei Watch Team from Strive School, the project is our mission for the 
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+We built this project using majorly the following frameworks:
 * [Deepnote](https://deepnote.com/)
 * [GitHub](https://github.com/)
 * [Jupiter Notebook](https://jupyter.org/)
@@ -76,11 +76,12 @@ This section should list any major frameworks that you built your project using.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Run for your life is a startup tech company. Our goal is to develop a fitness software that is able to be used plug and play style into most apps and smart watches, in a Google Fit style.
-One of the main ideas behind the project is to facilitate the calorie counting and make it more precise. In order to do this you will need to build a model that use the different measurements of your phone to classify the activity the athletes are taking part on accurately.
-Even though the initial focus is to get it working in as smartphone for Google Fit. We would like for it to work also in less powerful devices like smart watches.
+Run for your life is a startup tech company, whose goal is to develop a fitness software that is able to be used plug and play style into most apps and smart watches, in a Google Fit style.
+One of the main ideas behind the project is to facilitate the calorie counting and make it more precise. Through the Strive school, as we have tasked to support this project by building a machine learning model that uses the different measurements of your phone to classify the activity the athletes are taking part on accurately, such as running, walking, on car, train, or at standstill.
 
-Since the software is meant to complement other apps the easier it is to attach to a fitness software the easier it would be to sell. Same applies to devices, the more devices is works on the easier it will be to sell.
+Even though the initial focus is to get the app working in smartphones for Google Fit. it would subsequently be implemented to work also in less powerful devices like smart watches.
+
+<!--Since the software is meant to complement other apps the easier it is to attach to a fitness software the easier it would be to sell. Same applies to devices, the more devices is works on the easier it will be to sell.-->
 
 
 ### Missions
