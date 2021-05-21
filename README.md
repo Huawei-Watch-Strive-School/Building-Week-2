@@ -15,6 +15,10 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
+      <a href="#data-description">Data Description</a>
+      <a href="#goal-of-this-project">Goal of this project</a>
+      <a href="#project-plan">Project plan</a>
+      <a href="#the-team">The Team</a>
     </li>
   </ol>
 </details>
