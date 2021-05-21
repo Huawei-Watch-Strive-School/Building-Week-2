@@ -56,7 +56,7 @@ The dataset was developed by a [team of collaborators from the Univsersity of Bo
 
 
 ### Goal of this project
-Our goal is to build a model with incredible accuracy in as many activity classes as possible.  
+* Our goal is to build a model with incredible accuracy in as many activity classes as possible.  
 
 
 ## Project plan
