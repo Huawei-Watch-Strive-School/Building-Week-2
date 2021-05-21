@@ -66,17 +66,21 @@ We are the **Huawei Watch Team** from [Strive School](https://strive.school/), a
 -->
 
 
-### Built With
-
-We built this project using majorly the following frameworks:
-* [Deepnote](https://deepnote.com/)
-* [GitHub](https://github.com/)
-* [Jupiter Notebook](https://jupyter.org/)
-* [Streamlit](https://streamlit.io/)
-* [Graphext](https://www.graphext.com/)
 
 
 <!-- GETTING STARTED -->
+
+### Data Description
+
+The dataset was developed by a [team of collaborators from the Univsersity of Bologna](https://tempesta.cs.unibo.it/projects/us-tm2017/tutorial.html#raw_data), and is based on the 13 users who collected the data during their daily activities. The dataset includes all sensors available in phones such as accelerometer, gyrometer, etc., and distinguishes five transportation modes: 
+/ being on a car
+/ on a bus
+/ on a train
+/ standing still
+/ walking.
+
+
+
 ## Getting Started
 
 Run for your life is a startup tech company, whose goal is to develop a fitness software that is able to be used plug and play style into most apps and smart watches, in a Google Fit style.
@@ -95,15 +99,6 @@ The more lightweight the better we even accept a ‘lite’ submission for smart
 What if we didn't need to plug this into another software? If you are able to do a precise calorie counter and deliver it with the model please do.-->
 
 
-
-### Data Description
-
-The dataset was developed by a [team of collaborators from the Univsersity of Bologna](https://tempesta.cs.unibo.it/projects/us-tm2017/tutorial.html#raw_data), and is based on the 13 users who collected the data during their daily activities. The dataset includes all sensors available in phones such as accelerometer, gyrometer, etc., and distinguishes five transportation modes: 
-/ being on a car
-/ on a bus
-/ on a train
-/ standing still
-/ walking.
 
 
 
