@@ -14,6 +14,8 @@ y = df.target
 preprocessor = joblib.load('./model/preprocessor.x')
 model = joblib.load('./model/model.x')
 clf = Pipeline([('pre', preprocessor), ('classification', model)])
+
+
 predictions = []
 for i in range(df.shape[0]):
     x_test = df.drop('target', axis=1).values[i].reshape(1, -1)
