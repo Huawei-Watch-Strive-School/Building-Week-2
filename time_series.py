@@ -17,17 +17,17 @@ preprocessor = joblib.load('./model/preprocessor.x')
 model = joblib.load('./model/model.x')
 clf = Pipeline([('pre', preprocessor), ('classification', model)])
 
-pred = clf.predict(X)
+# pred = clf.predict(X)
 
-print(pred)
+# print(pred)
 # print(f"Accuracy { accuracy_score(y, pred)*100}")
+print(df.shape[0])
+predictions = []
 
-# predictions = []
-
-# for i in range(df.shape[0]):
-#     x_test = df.values[i]
-#     sleep(1)
-#     pred = model.predict(x_test)
+for i in range(df.shape[0]):
+    x_test = df.values[i]
+    sleep(1)
+    pred = clf.predict(x_test)
 #     print(pred)
 # if pred == 'Car':
 #     predictions.append('Car')
@@ -41,18 +41,18 @@ print(pred)
 #     walk_cont = 0
 #     car_cont = 0
 
-#     for p in predictions:
-#         if p == 'Still':
-#             still_cont += 1
-#         elif p == 'Car':
-#             walk_cont += 1
-#         elif p == 'Walking':
-#             car_cont += 1
+# for p in predictions:
+#     if p == 'Still':
+#         still_cont += 1
+#     elif p == 'Car':
+#         walk_cont += 1
+#     elif p == 'Walking':
+#         car_cont += 1
 
-#     if still_cont >= 2:
-#         print('You are currently in still position')
-#     elif walk_cont >= 2:
-#         print('You are currently walking')
-#     elif car_cont >= 2:
-#         print('You are currently in a car')
-#     predictions.remove(predictions[0])
+# if still_cont >= 2:
+#     print('You are currently in still position')
+# elif walk_cont >= 2:
+#     print('You are currently walking')
+# elif car_cont >= 2:
+#     print('You are currently in a car')
+# predictions.remove(predictions[0])
