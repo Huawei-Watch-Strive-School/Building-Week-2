@@ -22,35 +22,35 @@ clf = Pipeline([('pre', preprocessor), ('classification', model)])
 print(df.shape[0])
 predictions = []
 
-for i in range(df.shape[0]):
-    x_test = df.values[i]
+for i in range(0, 15):
+    x_test = df.drop('target', axis=1).values[i].reshape(1, -1)
+    x_test = pd.DataFrame(x_test, columns=df.drop('target', axis=1).columns)
     sleep(1)
     pred = clf.predict(x_test)
-#     print(pred)
-# if pred == 'Car':
-#     predictions.append('Car')
-# elif pred == 'Still':
-#     predictions.append('Still')
-# elif pred == 'Walking':
-#     predictions.append('Walking')
+    if pred == 'Car':
+        predictions.append('Car')
+    elif pred == 'Still':
+        predictions.append('Still')
+    elif pred == 'Walking':
+        predictions.append('Walking')
 
-# if len(predictions) == 3:
-#     still_cont = 0
-#     walk_cont = 0
-#     car_cont = 0
+    if len(predictions) == 5:
+        still_cont = 0
+        walk_cont = 0
+        car_cont = 0
 
-# for p in predictions:
-#     if p == 'Still':
-#         still_cont += 1
-#     elif p == 'Car':
-#         walk_cont += 1
-#     elif p == 'Walking':
-#         car_cont += 1
+        for p in predictions:
+            if p == 'Still':
+                still_cont += 1
+            elif p == 'Car':
+                walk_cont += 1
+            elif p == 'Walking':
+                car_cont += 1
 
-# if still_cont >= 2:
-#     print('You are currently in still position')
-# elif walk_cont >= 2:
-#     print('You are currently walking')
-# elif car_cont >= 2:
-#     print('You are currently in a car')
-# predictions.remove(predictions[0])
+        if still_cont >= 3:
+            print('You are currently in still position')
+        elif walk_cont >= 2:
+            print('You are currently walking')
+        elif car_cont >= 2:
+            print('You are currently in a car')
+    predictions.remove(predictions[0])
