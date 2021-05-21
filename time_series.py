@@ -49,8 +49,12 @@ for i in range(0, 15):
 
         if still_cont >= 3:
             print('You are currently in still position')
+            continue
         elif walk_cont >= 2:
             print('You are currently walking')
+            continue
         elif car_cont >= 2:
             print('You are currently in a car')
+            predictions = []
+            continue
     predictions.remove(predictions[0])
