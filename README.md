@@ -29,9 +29,6 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#data-description">Built With</a></li>
-      </ul>
     </li>
     <li>
       <a href="#goal-of-this-project">Getting Started</a>
