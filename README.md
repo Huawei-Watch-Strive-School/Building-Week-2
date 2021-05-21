@@ -16,10 +16,6 @@
     <li>
       <a href="#about-the-project">About The Project</a>
     </li>
-    <li><a href="#Data Description">Contributing</a></li>
-    <li><a href="#Goal of this project">License</a></li>
-    <li><a href="#Project plan">Contact</a></li>
-    <li><a href="#The Team">Acknowledgements</a></li>
   </ol>
 </details>
 
