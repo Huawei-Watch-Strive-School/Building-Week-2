@@ -106,13 +106,6 @@ The dataset was developed by a [team of collaborators from the Univsersity of Bo
 / walking.
 
 
-<!-- CONTRIBUTING -->
-## Contributing
-
-<!-- LICENSE -->
-## License
-Distributed under the MIT License. See `LICENSE` for more information.
-
 
 
 <!-- CONTACT -->
@@ -125,10 +118,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 | Olatunde Salami  | Deepnote coding | [https://www.linkedin.com/in/olatunde-salami/] |
 | Agathiya Raja | Github readme | [https://github.com/AgathiyaRaja]|
 | Thanh Nguyen | Github readme | [https://www.linkedin.com/in/nguyenphuocxuanthanh/ |
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
- * [Strive School](https://strive.school/)
 
 
 
