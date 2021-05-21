@@ -67,7 +67,7 @@ The dataset was developed by a [team of collaborators from the Univsersity of Bo
 * Create Machine Learning pipeline and run the data on multiple classifiers
 * Choose the best classifier and find the accuracy on test_data
 * Create a time series model which predicts the class for every 1 sec
-* calculate necessary parameters like speed, calorie count etc.
+* Calculate necessary parameters like speed, calorie count etc.
 
 
 
