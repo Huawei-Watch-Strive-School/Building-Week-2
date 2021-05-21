@@ -46,15 +46,15 @@ for i in range(0, 15):
                 car_cont += 1
             elif p == 'Walking':
                 walk_cont += 1
-        print(predictions)
-        if still_cont >= 3:
-            print('You are currently in still position')
-            continue
-        elif walk_cont >= 2:
-            print('You are currently walking')
-            continue
-        elif car_cont >= 2:
-            print('You are currently in a car')
+            print(predictions)
+            if still_cont >= 3:
+                print('You are currently in still position')
+                continue
+            elif walk_cont >= 2:
+                print('You are currently walking')
+                continue
+            elif car_cont >= 2:
+                print('You are currently in a car')
 
-            continue
-        predictions.remove(predictions[0])
+                continue
+            predictions.remove(predictions[0])
