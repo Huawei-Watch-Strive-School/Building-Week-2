@@ -14,7 +14,9 @@ y = df.target
 preprocessor = joblib.load('./model/preprocessor.x')
 model = joblib.load('./model/model.x')
 clf = Pipeline([('pre', preprocessor), ('classification', model)])
-
+clf.predict(X)
+score = clf.score(X, y)*100
+print("model score: %.1f" % score)
 
 predictions = []
 for i in range(df.shape[0]):
