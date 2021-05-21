@@ -128,7 +128,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [Strive School]([https://strive.school/)
+ * [Strive School](https://strive.school/)
 
 
 
