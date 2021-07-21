@@ -70,6 +70,8 @@ The dataset was developed by a [team of collaborators from the Univsersity of Bo
 * Calculate necessary parameters like speed, calorie count etc.
 
 
+## Future plans
+* As the model currently functions as a time series and continously predicts the type of transportation for a given time, we can extend it so that we can keep a track of the walking time of a person and possibly extend it as a fitness tracker.
 
 
 <!-- CONTACT -->
